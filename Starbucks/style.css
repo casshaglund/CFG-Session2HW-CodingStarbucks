@@ -1,0 +1,293 @@
+@font-face {
+    font-family: SoDoSans;
+    src: url('fonts/SoDoSans-Regular.woff');
+}
+
+@font-face {
+    font-family: SoDoSans-SemiBold;
+    src: url('fonts/SoDoSans-SemiBold.woff');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: SoDoSans;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-family: SoDoSans;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: SoDoSans;
+    font-weight: 100;
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: SoDoSans;
+    font-weight: 100;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.navbar {
+    background: #ffffff;
+    height: 120px;
+    flex: 1 0 50px;
+    text-transform: uppercase;
+    font-family: SoDoSans-SemiBold;
+    font-weight: bolder;
+    font-size: 13px;
+    letter-spacing: 2px;
+    padding-top: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar:nth-of-type(1) {
+flex-grow: 1;
+}
+
+.navbar:nth-of-type(2) {
+flex-grow: 1;
+}
+
+.navbar:nth-of-type(3) {
+flex-grow: 2;
+}
+
+.navbar .logo {
+    height: 50px;
+    width: 70px;
+}
+
+a {
+    color: #000000;
+    padding: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    font-family: SoDoSans;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    max-width: 180px;
+    align-items: center;
+}
+
+.button1 {
+    background-color: transparent;
+    border: 1px solid #000000;
+    color: #000000;
+    padding: 10px 20px;
+    font-family: SoDoSans;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    max-width: 180px;
+}
+
+.button2 {
+    background-color: #000000;
+    border: 1px solid #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-family: SoDoSans;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    max-width: 180px;
+}
+
+.centerbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.header {
+    background-color: #d4e9e2;
+    max-height: 420px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.head {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    padding: 20px;
+}
+
+
+
+.boxes {
+    background-color: #006241;
+    color: #ffffff;
+}
+
+.box {
+    min-height: 220px;
+}
+
+.boxes .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.whiteSpaces {
+    background-color: #ffffff;
+    height: 20px;
+}
+
+
+
+.text {
+    display: flex;
+    flex-direction: column;
+    max-height: 500px;
+    padding-left: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column;
+    max-height: 500px;
+    padding-left: 20px;
+    text-align: left;
+    justify-content: center;
+}
+
+.container .text {
+    display: flex;
+}
+
+.TandC {
+    font-family: SoDoSans;
+    font-size: 12px;
+    padding: 50px;
+    padding-left: 400px;
+    padding-right: 400px;
+    text-align: center;
+    line-height: 20px;
+}
+
+ul {
+    padding-left: 50px;
+    padding-bottom: 15px;
+    text-align: left;
+    line-height: 40px;
+}
+
+.text ul li {
+    font-weight: 900px;
+    padding-bottom: 20px;
+}
+
+
+
+.table {
+    display: flex;
+}
+
+.item {
+    display: flex;
+    flex-basis: 250px;
+}
+
+.table ul li {
+    list-style-type: none;
+    font-family: SoDoSans;
+    font-size: 12px;
+
+}
+
+.footer {
+    font-family: SoDoSans;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-left: 50px;
+    text-align: left;
+    line-height: 50px;
+}
+
+.footerlight {
+    font-family: SoDoSans;
+    color: darkgrey;
+    font-size: 12px;
+    padding-left: 50px;
+    padding-bottom: 100px;
+    text-align: left;
+}
+
+.social {
+    max-height: 52px;
+    padding: 5px;
+    padding-top: 20px;
+
+}
